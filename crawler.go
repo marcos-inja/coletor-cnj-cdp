@@ -14,9 +14,9 @@ import (
 )
 
 const (
-	timeout             = 5 * time.Minute
+	timeout             = 8 * time.Minute
 	tempoEsperaDownload = 15 * time.Second
-	tempoAcao           = 5 * time.Second
+	tempoAcao           = 10 * time.Second
 
 	direitosPessoaisXPATH = "/html/body/div[5]/div/div[31]/div[2]/table/tbody/tr/td"
 	indenizacoesXPATH     = "/html/body/div[5]/div/div[25]/div[2]/table/tbody/tr/td"
