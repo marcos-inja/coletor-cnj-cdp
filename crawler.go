@@ -109,6 +109,7 @@ func selectionaOrgaoMesAno(ctx context.Context, court, year, month, output strin
 	)
 	return chromedp.Run(ctx,
 		chromedp.Navigate(baseURL),
+		chromedp.Sleep(tempoAcao),
 		chromedp.WaitVisible(`//*[@title='Tribunal']`, chromedp.BySearch),
 		chromedp.Sleep(tempoAcao),
 
